@@ -7,6 +7,7 @@ const converter = (entity = {}, originalText) => {
   return originalText;
 };
 
+
 export default (block, entityMap, entityConverter = converter) => {
   let resultText = [...block.text];
 
